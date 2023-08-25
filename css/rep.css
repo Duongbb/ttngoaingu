@@ -1,0 +1,1478 @@
+@media screen and (max-width:390px) {
+    #header {
+        height: 95px;
+        max-width: 390px;
+    }
+
+    .header {
+        height: 95px;
+        max-width: 390px;
+    }
+
+    #logo-header {
+        display: flex;
+        align-items: center;
+        padding: 10px;
+    }
+
+    #logo-header img {
+        width: 55px;
+        padding: 7px;
+    }
+
+    .title-header {
+        text-align: center;
+        text-transform: uppercase;
+        margin: 4px;
+        line-height: 22px;
+        color: #00872f;
+    }
+
+    .title-header h1 {
+        font-size: 16px;
+    }
+
+    .title-header h2 {
+        font-size: 13px;
+    }
+
+    .menu-title {
+        display: none;
+    }
+
+    nav {
+        align-items: center;
+        padding: 0 35px;
+        display: flex;
+        height: 45px;
+        flex-direction: row-reverse;
+    }
+
+    .action ul {
+        text-align: right;
+    }
+
+    input:checked~.slide-menu {
+        display: block;
+        z-index: 1;
+        transform: translateX(-13rem)
+    }
+
+    #main-content {
+        max-width: 390px;
+        height: 254rem;
+        padding: 0;
+    }
+
+    #slide {
+        height: auto;
+        max-width: 390px;
+    }
+
+    #slide-img img {
+        width: 180px;
+        height: 140px;
+    }
+
+    .slide-first {
+        padding: 6px;
+        display: flex;
+        width: 378px;
+        height: 144px;
+        background-color: #f0f0f0;
+    }
+
+
+    #slide-content {
+        width: 180px;
+    }
+
+    #slide-content .title h1 {
+        width: 195px;
+        margin: 5px 5px;
+        font-size: 13px;
+        font-weight: bold;
+    }
+
+    #slide-content .title-small a {
+        font-size: 11px;
+    }
+
+    #slide-content .title-small {
+        line-height: 15px;
+        width: 178px;
+        margin: 8px
+    }
+
+    #list {
+        max-width: 390px;
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+    }
+
+    .slide-second,
+    .event-item {
+        padding: 7px;
+        height: 215px;
+        width: 193px;
+        display: block;
+    }
+
+    #second-img img,
+    .event-item img {
+        width: 181px;
+    }
+
+    #second-content h2,
+    p,
+    .new-file h2 {
+        margin: 8px;
+    }
+
+    #main {
+        padding: 0px 6px;
+        width: 377px;
+        height: auto;
+        display: block;
+    }
+
+    .main-item {
+        width: 377px;
+        height: auto;
+    }
+
+    #title {
+        width: 376px;
+        display: flex;
+        border-bottom: 2px solid #008931;
+    }
+
+    .main-item h1,
+    .main-file h1,
+    .event-tittle h1 {
+        font-size: 12px;
+        padding-bottom: 5px;
+    }
+
+    #title i {
+        color: #91ecb1;
+        font-size: 13px;
+    }
+
+    .main-item #item1 {
+        width: 377px;
+        display: block;
+        height: 350px;
+        padding: 0 5px;
+    }
+
+    #item1 img {
+        width: 367px;
+        height: 250px;
+    }
+
+    .main-item #item1 p {
+        margin: 0px;
+        font-weight: bold;
+        font-size: 13px;
+        line-height: 21px;
+    }
+
+    .main-item .list-item2 {
+        margin: 0;
+        width: 377px;
+        height: 110px;
+        display: flex;
+    }
+
+    .main-file {
+        display: block;
+        width: 377px;
+        height: 350px;
+    }
+
+    .file {
+        display: flex;
+        width: 370px;
+        height: 50px;
+        padding: 0;
+    }
+
+    .file #file-title h3 {
+        width: 333px;
+        font-size: 10px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .file-item h2 {
+        font-size: 12px;
+    }
+
+    .file-item h3 {
+        font-size: 10px;
+    }
+
+    .target {
+        width: 370px;
+        height: 1627px;
+        position: relative;
+    }
+
+    .target .img-noti,
+    .target .branch {
+        width: 340px;
+        padding: 14px;
+        height: 190px;
+    }
+
+    #noti h2 {
+        font-size: 13px;
+        line-height: 30px;
+        padding: 5px 0px;
+    }
+
+    .side-bar {
+        float: none;
+        position: relative;
+    }
+
+    #new {
+        padding: 5rem 10px;
+    }
+
+    #new-tittle,
+    #new-list {
+        justify-content: center;
+        width: 370px;
+    }
+
+    #info {
+        width: auto;
+        height: 410px;
+    }
+
+    #info .info-tittle h1 {
+        text-transform: uppercase;
+        color: #00872f;
+        border-bottom: 1px solid #c8c8c8;
+        padding: 8px;
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    #info .info-item h2 {
+        font-size: 14px;
+        line-height: 23px;
+        margin: 15px 0px;
+        color: #323232;
+    }
+
+    #school {
+        height: auto;
+        width: 377px;
+        padding: 18px 5px;
+    }
+
+    .school-tittle {
+        display: flex;
+        align-items: center;
+        height: 40px;
+        border-bottom: 2px solid #008830;
+    }
+
+    .school-tittle ul {
+        margin: 0;
+        padding-left: 15px;
+        display: flex;
+        align-items: center;
+    }
+
+    .school-tittle h1 {
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 11px;
+        color: #008931;
+    }
+
+    .nav-tabs li a {
+        margin-left: 15px;
+        font-size: 9px;
+        display: block;
+    }
+
+    .school-list {
+        width: 327px;
+        height: 400px;
+    }
+
+    .school-list #list-info {
+        padding: 0px;
+        width: 377px;
+    }
+
+    .school-list #list-info .list-item {
+        display: flex;
+        padding: 8px;
+    }
+
+    .list-item .item-info {
+        margin-left: 10px;
+        width: 360px;
+        line-height: 18px;
+    }
+
+    .list-item .item-info h2 {
+        margin-left: 8px;
+    }
+
+    #event {
+        display: block;
+        height: 40rem;
+        width: 377px;
+        padding: 0px 8px;
+    }
+
+    .event-tittle {
+        width: 377px;
+    }
+
+    .event-list {
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+    }
+
+    .event-list h2 {
+        width: 180px;
+    }
+
+    #table-gold {
+        display: block;
+        width: 390px;
+        padding: 0 8px;
+    }
+
+    #table-gold img {
+        width: 370px;
+    }
+
+    .table-gold-title {
+        text-align: center;
+        left: 32%;
+        position: absolute;
+        color: #fff;
+        line-height: 15px;
+        text-transform: uppercase;
+    }
+
+    .table-gold-title h1 {
+        font-size: 12px;
+    }
+
+    .table-gold-title h3 {
+        font-size: 8px;
+    }
+
+
+
+    #table-gold .table-gold-item img {
+        width: 45px;
+        height: 45px;
+        margin: 1px 0;
+    }
+
+    .table-gold-info {
+        padding: 0;
+        color: #fff;
+        line-height: 7px;
+    }
+
+    #table-gold .table-gold-list h2 {                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+        font-size: 4px;
+    }
+    .table-gold-item{
+        border-width: 1px;
+        padding: 1px;
+        width: 48px;
+        height: 47px;
+    }
+
+    .table-gold-list {
+        position: absolute;
+        top: 26%;
+        left: 6%;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .tbg2 {
+        left: 29%;
+    }
+
+    .tbg3 {
+        left: 51%;
+    }
+
+    .tbg4 {
+        left: 74%;
+    }
+
+    #main-admiss {
+        max-width: 390px;
+        height: 185rem;
+        padding: 0;
+    }
+
+    #non-admiss {
+        max-width: 390px;
+        height: 110rem;
+    }
+    #non-main {
+    width: auto;
+    height: 1632px;
+}
+
+    .admissions {
+        max-width: 390px;
+        height: 400px;
+        padding: 10px 0px;
+    }
+
+    .admissions-tittle {
+        height: 20px;
+        max-width: 390px;
+        display: flex;
+        align-items: center;
+        border-bottom: 2px solid #008830;
+    }
+
+    .admissions-tittle h1 {
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 11px;
+        color: #008931;
+
+    }
+
+    .admissions-tittle ul {
+        margin: 0;
+        padding-left: 25px;
+        display: flex;
+        align-items: center;
+    }
+
+    .admissions-tittle ul a {
+        color: #008931;
+        font-weight: bold;
+        margin-left: 10px;
+        font-size: 9px;
+        display: block;
+    }
+
+    #admissions-item1 {
+        width: 375px;
+        height: 345px;
+    }
+
+    #admissions-item1 img {
+        width: 375px;
+    }
+
+    #admiss-info {
+        max-width: 390px;
+        height: 340px;
+        padding: 5px 0;
+        display: grid;
+        grid-template-columns: repeat(2, 49%);
+    }
+
+    .list-admiss {
+        margin: 0px;
+        width: 188px;
+    }
+
+    .face {
+        width: 100%;
+        height: 400px;
+        padding: 20px 0px;
+    }
+
+    .link {
+        width: 370px;
+        height: 870px;
+    }
+
+    #lib {
+        height: 350px;
+        padding: 0px 8px;
+        max-width: 390px;
+    }
+
+    .lib1 img {
+        width: 370px;
+    }
+
+    .lib1 {
+        width: 370px;
+        height: 232px;
+        overflow: hidden;
+    }
+
+    .lib1-text {
+        background-color: rgba(3, 3, 3, 0.2);
+        padding: 10px;
+        position: absolute;
+        bottom: -59px;
+        width: 370px;
+        transition: all 0.3s ease-in-out;
+        opacity: 0;
+    }
+
+    .lib2 {
+        display: grid;
+        grid-template-columns: repeat(2, 48%);
+        max-width: 390px;
+        height: 286px;
+        padding: 8px 0px;
+    }
+
+    #lib-item1 {
+        width: 185px;
+        height: 114px;
+        margin: 0px;
+        position: relative;
+        overflow: hidden;
+    }
+
+    #lib-item2 {
+        width: 185px;
+        height: 114px;
+        margin: 0px 4px;
+        position: relative;
+        overflow: hidden;
+    }
+
+    #lib-item3 {
+        width: 185px;
+        height: 114px;
+        margin: 9px 0px;
+        position: relative;
+        overflow: hidden;
+    }
+
+    #lib-item4 {
+        width: 185px;
+        height: 114px;
+        margin: 9px 0px;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .lib2 img {
+        width: 178px;
+    }
+
+    .lib2-text {
+        background-color: rgba(3, 3, 3, 0.2);
+        padding: 8px;
+        position: absolute;
+        bottom: -45px;
+        width: 162px;
+        transition: all 0.3s ease-in-out;
+        opacity: 0;
+    }
+
+    .lib2-text h2 {
+        color: #fff;
+        font-size: 10px;
+    }
+
+    .lib2-text2 {
+        background-color: rgba(3, 3, 3, 0.2);
+        padding: 8px;
+        position: absolute;
+        bottom: -45px;
+        width: 162px;
+        transition: all 0.3s ease-in-out;
+        opacity: 0
+    }
+
+    .lib2-text2 h2 {
+        color: #fff;
+        font-size: 10px;
+    }
+
+    .lib2-text3 {
+        background-color: rgba(3, 3, 3, 0.2);
+        padding: 8px;
+        position: absolute;
+        bottom: -45px;
+        width: 162px;
+        transition: all 0.3s ease-in-out;
+        opacity: 0
+    }
+
+    .lib2-text3 h2 {
+        color: #fff;
+        font-size: 10px;
+    }
+
+    .lib2-text4 {
+        background-color: rgba(3, 3, 3, 0.2);
+        padding: 8px;
+        position: absolute;
+        bottom: -45px;
+        width: 162px;
+        transition: all 0.3s ease-in-out;
+        opacity: 0
+    }
+
+    .lib2-text4 h2 {
+        color: #fff;
+        font-size: 10px;
+    }
+
+    #logo {
+        height: 44rem;
+        padding: 0 5px;
+        max-width: 390px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(178px, 48%));
+        justify-items: center;
+    }
+
+    .logo-list:last-child {
+        left: 50%;
+    }
+
+    .logo-list {
+        width: 178px;
+        text-align: center;
+
+        padding: 0;
+    }
+
+    .logo-list img {
+        width: 178px;
+    }
+
+    #footer {
+        width: 100%;
+        height: 180px;
+        background-color: #279146;
+    }
+
+    #footer h1 {
+        text-align: center;
+        padding: 10px 0;
+        text-transform: uppercase;
+        font-size: 12px;
+        color: #fff;
+    }
+
+    .footer-tittle {
+        height: 150px;
+        padding: 0 10px;
+        line-height: 1.5;
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    .footer-tittle #left h3 {
+
+        text-align: right;
+        padding: 0 16px;
+        font-size: 9px;
+    }
+
+    .footer-tittle #right h3 {
+
+        text-align: left;
+        font-size: 9px;
+    }
+
+
+}
+
+@media screen and (max-width:1000px) and (min-width:400px) {
+    #header {
+        height: 95px;
+        width: 100%;
+    }
+
+    .header {
+        height: 95px;
+        width: 100%;
+    }
+
+    #logo-header {
+        display: flex;
+        align-items: center;
+        padding: 13px 6rem;
+    }
+
+    #logo-header img {
+        width: 55px;
+        padding: 7px;
+    }
+
+    .title-header {
+        text-align: center;
+        text-transform: uppercase;
+        margin: 4px;
+        line-height: 22px;
+        color: #00872f;
+    }
+
+    .title-header h1 {
+        font-size: 16px;
+    }
+
+    .title-header h2 {
+        font-size: 13px;
+    }
+
+    #menu {
+        height: 25px;
+        background-color: #008931;
+    }
+
+    nav {
+        display: flex;
+        justify-items: center;
+        height: 25px;
+    }
+
+    .menu-title {
+
+        padding: 0px 25px 0px 80px;
+
+    }
+
+    .menu-title li a {
+        color: #f0f0f0;
+        display: block;
+        font-weight: bold;
+        font-size: 9px;
+        text-transform: uppercase;
+        padding: 8px 7px;
+    }
+
+    .action ul li {
+        padding: 4px;
+    }
+
+    .action a,
+    #second-content p {
+        font-size: 9px;
+    }
+
+    .action i,
+    #second-content h2,
+    #file-title a {
+        font-size: 11px;
+    }
+
+    .toggle {
+        top: -2px;
+        left: -7px;
+    }
+
+    .toggle .common {
+        position: absolute;
+        height: 2px;
+        width: 18px;
+        background-color: #fff;
+        border-radius: 50px;
+        transition: 0.3 ease;
+    }
+
+    .toggle .top_line {
+        top: 29%;
+        left: 30%;
+        transform: translate(-50%, -50%);
+    }
+
+    .toggle .middle_line {
+        top: 48%;
+        left: 30%;
+        transform: translate(-50%, -50%);
+    }
+
+    .toggle .bottom_line {
+        top: 64%;
+        left: 30%;
+        transform: translate(-50%, -50%);
+    }
+
+    input:checked~.toggle .top_line {
+        top: 14px;
+        width: 15px;
+        transform: rotate(45deg);
+    }
+
+    input:checked~.toggle .bottom_line {
+        top: 14px;
+        width: 15px;
+        transform: rotate(-45deg);
+    }
+
+    input:checked~.toggle .middle_line {
+        opacity: 0;
+        transform: translateX(20px);
+    }
+
+    input:checked~.slide-menu {
+        display: block;
+        z-index: 1;
+        transform: translateX(-13rem)
+    }
+
+    #main-content {
+        width: auto;
+        height: 1220px;
+        padding: 22px 0px 0px 50px;
+    }
+
+    #non-main {
+        width: 530px;
+        height: 1206px;
+    }
+
+    #slide {
+        height: 485px;
+        width: 100%;
+    }
+
+    .slide-first {
+        display: flex;
+        width: 100%;
+        height: 239px;
+        background-color: #f0f0f0;
+    }
+
+    #slide-img img,
+    #item1 img {
+        width: 320px;
+    }
+
+    #slide-content .title h1 {
+        margin: 14px 13px;
+        font-size: 17px;
+        font-weight: bold;
+    }
+
+    #slide-content .title-small {
+        margin: 5px 0px 0px 9px;
+        font-size: 8px;
+        line-height: 20px;
+    }
+
+    #list {
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+    }
+
+    .slide-second {
+        padding: 20px 0px;
+        display: flex;
+        width: 255px;
+        height: 77px;
+    }
+
+    #second-img img {
+        width: 132px;
+    }
+   
+
+    #second-content h2,
+    p,
+    .new-file h2 {
+        margin: 0px 0px 10px 8px;
+    }
+
+    .main-item {
+        width: 530px;
+        height: 364px;
+    }
+
+    .main-item h1 {
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 20px;
+        color: #008931;
+        padding-bottom: 15px;
+    }
+
+    .main-item #item1 {
+        width: 280px;
+        height: 304px;
+    }
+
+    #item1 img {
+        width: 280px;
+    }
+
+    #item1 p {
+        font-size: 13px;
+    }
+
+    .main-item .list-item2 {
+        margin-left: 15px;
+        width: 235px;
+        height: 70px;
+        display: flex;
+    }
+
+    .main-item .item {
+        float: left;
+        position: relative;
+    }
+
+    .main-file {
+        width: 530px;
+        height: 358px;
+    }
+
+    .file {
+        display: flex;
+        width: 530px;
+        height: 36px;
+        padding: 14px 0;
+    }
+
+    .file #file-title h3 {
+        width: 480px;
+        font-size: 10px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    #new {
+        width: 200px;
+        height: 596px;
+        padding-left: 10px;
+    }
+
+    .target {
+        width: 200px;
+        height: 1627px;
+    }
+
+    #new-tittle {
+        width: 200px;
+        height: 32px;
+        background-color: #008830;
+        line-height: 20px;
+        display: flex;
+        align-items: center;
+    }
+
+    #new-tittle h1 {
+        font-weight: 600;
+        text-transform: uppercase;
+        font-size: 13px;
+        color: #fff;
+        margin: 10px;
+
+    }
+
+    .new-file #file-img img {
+        width: 90px;
+    }
+
+    .new-file #file-title h2 {
+        width: 95px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    #new-list {
+        height: 82px;
+    }
+
+    .img-noti,
+    .branch {
+        width: 200px;
+    }
+
+    #noti h2 {
+        line-height: 18px;
+        font-size: 10px;
+        padding: 6px 0px;
+    }
+
+    #info {
+        border: 1px solid #c8c8c8;
+        background-color: #f7f7f7;
+        height: 370px;
+    }
+
+    #info .info-tittle h1 {
+        text-transform: uppercase;
+        color: #00872f;
+        border-bottom: 1px solid #c8c8c8;
+        padding: 6px;
+        font-size: 13px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    #info .info-item h2 {
+        font-size: 10px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        line-height: 20px;
+        margin: 15px 0px;
+        color: #323232;
+    }
+
+    #school {
+        height: 480px;
+        width: 740px;
+        padding: 0px 50px;
+    }
+
+    .school-tittle h1 {
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 16px;
+        color: #008931;
+    }
+
+    .school-tittle ul {
+        margin: 0;
+        padding-left: 50px;
+        display: flex;
+        align-items: center;
+    }
+
+    .nav-tabs li a {
+        color: #656565;
+        font-weight: bold;
+        margin-left: 30px;
+        font-size: 11px;
+        display: block;
+    }
+
+    .school-list {
+        width: 740px;
+        height: 400px;
+        display: grid;
+        grid-template-columns: repeat(2, 55%)
+    }
+
+    .school-list #list-info h1 {
+        color: #999999;
+        font-size: 18px;
+        font-weight: bold;
+        width: 10px;
+    }
+
+    .school-list #list-info h2 {
+        margin: 0 6px;
+        color: #279146;
+        font-weight: bold;
+    }
+
+    .school-list #list-info p {
+        font-size: 11px;
+        color: #343434;
+        font-weight: bold;
+    }
+
+    #event {
+        display: block;
+        height: 350px;
+        width: auto;
+        padding: 0px 50px;
+    }
+
+    .event-tittle {
+        height: 30px;
+        width: 743px;
+    }
+
+    .event-list {
+        display: flex;
+    }
+
+    .event-tittle h1 {
+        width: 1150px;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 20px;
+        color: #008931;
+    }
+
+    .school-list #list-info {
+        float: left;
+        position: relative;
+        padding: 21px 0px;
+        width: 334px;
+    }
+
+    .event-item {
+        padding: 20px 9px 10px 0px;
+        width: 180px;
+        line-height: 20px;
+        /* position: relative;
+        float: left; */
+    }
+
+    .event-item img {
+        width: 180px;
+    }
+
+    #table-gold {
+        position: relative;
+        padding: 0px 50px;
+    }
+
+    #table-gold img {
+        width: 750px;
+    }
+
+    .table-gold-title {
+        text-align: center;
+        top: 6%;
+        left: 33%;
+        position: absolute;
+        color: #fff;
+        line-height: 29px;
+        text-transform: uppercase;
+    }
+    .table-gold-item{
+        height: 96px;
+        width: 100px;
+    }
+
+    .table-gold-title h1 {
+        font-size: 22px;
+    }
+
+    .table-gold-title h3 {
+        font-size: 17px;
+    }
+
+    #table-gold .table-gold-item img {
+        height: 85px;
+        width: 85px;
+    }
+
+    .table-gold-list {
+        position: absolute;
+        top: 31%;
+        left: 9%;
+        text-align: center;
+    }
+
+    .tbg2 {
+        left: 31%;
+    }
+
+    .tbg3 {
+        left: 54%;
+    }
+
+    .tbg4 {
+        left: 75%;
+    }
+
+    .table-gold-info {
+        padding: 9px 0;
+        color: #fff;
+        line-height: 15px;
+    }
+
+    .table-gold-info h2 {
+        font-size: 8px;
+    }
+
+    .admissions {
+        width: 530px;
+        height: 340px;
+        padding: 10px 0px;
+    }
+
+    #non-admiss {
+        width: 530px;
+        height: 715px;
+    }
+
+    #main-admiss {
+        width: auto;
+        height: 740px;
+        padding: 30px 0px 0px 50px;
+    }
+
+    .admissions-tittle {
+        width: 530px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        border-bottom: 2px solid #008830;
+    }
+
+    .admissions-tittle h1 {
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 14px;
+        color: #008931;
+    }
+
+    .admissions-tittle ul {
+        margin: 0;
+        padding-left: 30px;
+        display: flex;
+        align-items: center;
+    }
+
+    .admissions-tittle ul a {
+        color: #008931;
+        font-weight: bold;
+        margin-left: 20px;
+        font-size: 12px;
+    }
+
+    #admissions-item1 {
+        padding: 15px 10px 0px 0px;
+        width: 214px;
+        height: 275px;
+    }
+
+    #admissions-item1 img {
+        height: 140px;
+        width: 214px;
+    }
+
+    #admissions-item1 h1 {
+        font-size: 12px;
+        padding: 10px 0px;
+    }
+
+    #admissions-item1 p {
+        margin: 0px;
+        font-size: 10px;
+    }
+
+    #admiss-info {
+        width: 306px;
+        height: 285px;
+    }
+
+    #admissions-content {
+        width: 145px;
+        height: 117px;
+    }
+
+    #admissions-content h2 {
+        font-size: 12px;
+    }
+
+    #admissions-content img {
+        width: 145px;
+    }
+
+    .list-admiss {
+        margin: 16px 4px;
+        width: 145px;
+        position: relative;
+        float: left;
+    }
+
+    .face {
+        width: 530px;
+        height: 323px;
+        padding: 20px 0px;
+    }
+
+    .face-tittle {
+        width: 530px;
+        height: 30px;
+    }
+
+    .link {
+        width: 212px;
+        height: 700px;
+    }
+
+    .side-bar {
+        float: left;
+        position: relative;
+    }
+
+    .link-file {
+        display: flex;
+        border: 2px solid #c8c8c8;
+        align-items: center;
+        padding: 0px 15px;
+        height: 57px;
+    }
+
+    .link-file img {
+        width: 40px;
+    }
+
+    #link-title h2 {
+        font-size: 12px;
+        color: #6e6e6e;
+    }
+
+    .link-h1 {
+        line-height: 41px;
+        height: 41px;
+        background-color: #008931;
+        text-align: left;
+        position: relative;
+    }
+    #lib {
+        height: 350px;
+        padding: 0px 50px;
+        width: auto;
+    }
+    .lib1 {
+        width: 374px;
+        height: 234px;
+        overflow: hidden;
+    }
+    .lib1 img{
+        width: 374px;
+        height: 234px;
+    }
+    .lib1-text {
+        background-color: rgba(3, 3, 3, 0.2);
+        padding: 21px 10px;
+        position: absolute;
+        bottom: -59px;
+        width: 354px;
+        transition: all 0.3s ease-in-out;
+        opacity: 0;
+    }
+    .lib1-text h1 {
+        color: #fff;
+        font-size: 15px;
+    }
+    .lib2 {
+        width: 360px;
+        height: 252px;
+        padding-left: 10px;
+    }
+    .lib2 img{
+        width: 175px;
+        height: 110px;
+    }
+    .lib2-text {
+        background-color: rgba(3, 3, 3, 0.2);
+        padding: 15px 8px;
+        position: absolute;
+        bottom: -45px;
+        width: 165px;
+        transition: all 0.3s ease-in-out;
+        opacity: 0;
+    }
+    #lib-item1 {
+        width: 173px;
+        height: 110px;
+        margin: 0px 3px;
+        position: relative;
+        overflow: hidden;
+    }
+    
+    
+    #lib-item2 {
+        width: 173px;
+        height: 110px;
+        margin: 0px 4px;
+        position: relative;
+        overflow: hidden;
+    }
+    
+    #lib-item3 {
+        width: 173px;
+        height: 110px;
+        margin: 14px 3px;
+        position: relative;
+        overflow: hidden;
+    }
+    
+    #lib-item4 {
+        width: 173px;
+        height: 110px;
+        margin: 14px 4px;
+        position: relative;
+        overflow: hidden;
+    }
+    .lib2-text2 {
+        background-color: rgba(3, 3, 3, 0.2);
+        padding: 8px 15px;
+        position: absolute;
+        bottom: -45px;
+        width: 165px;
+        transition: all 0.3s ease-in-out;
+        opacity: 0;
+    }
+    
+    .lib2-text3 {
+        background-color: rgba(3, 3, 3, 0.2);
+        padding: 8px 5px;
+        position: absolute;
+        bottom: -45px;
+        width: 165px;
+        transition: all 0.3s ease-in-out;
+        opacity: 0;
+    }
+    .lib2-text4 {
+        background-color: rgba(3, 3, 3, 0.2);
+        padding: 8px 5px;
+        position: absolute;
+        bottom: -45px;
+        width: 165px;
+        transition: all 0.3s ease-in-out;
+        opacity: 0;
+    }
+    .lib-list1 h2 {
+        color: #fff;
+        font-size: 9px;
+    }
+    #logo {
+        height: 186px;
+        padding: 0px 50px;
+        width:  auto;
+    }
+    .logo-list {
+        width: 140px;
+        text-align: center;
+        position: relative;
+        float: left;
+        padding:4px;
+    }
+    .logo-list img{
+        width: 140px;
+    }
+    .logo-list h1 {
+        font-size: 8px;
+        margin: 12px 0;
+    }
+    #footer h1 {
+        text-align: center;
+        padding: 30px 0 25px 0;
+        text-transform: uppercase;
+        font-size: 15px;
+        color: #fff;
+    }
+    .footer-tittle {
+        height: 102px;
+        padding: 0 ;
+        line-height: 25px;
+    }
+    .footer-tittle h3{
+        font-size: 11px;
+    }
+}
